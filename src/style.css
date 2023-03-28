@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./assets/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+
+  }
+
+
+.hello{
+    color:red;
+    font-family: 'MyFont';
+}
