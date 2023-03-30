@@ -13,4 +13,4 @@ function createHeader(){
     content.appendChild(header)
 }
 
-export default createHeader
+export default createHeader 

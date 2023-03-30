@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+import todatImg from 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,9 +52,17 @@ table {
 @font-face {
     font-family: 'RobotoMono';
     src: url('./assets/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
-
 }
 
+html, body {
+    height: 100%;
+}
+
+.content{
+    height: 100%;
+}
+
+/* HEADER STYLING */
 .header{
     background-color: rgb(207, 204, 204);
     padding-top: 2vh;
@@ -64,4 +74,88 @@ table {
     font-family: 'RobotoMono';
     font-size: 6vh;
 }
+/* HEADER STYLING */
+
+
+/* SIDEBAR STYLING */
+.sideBar{
+    border: solid;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-left: 2vh;
+    padding-top:5vh;
+    gap: 10vh
+}
+
+.reminders{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+} 
+
+.reminders .reminder{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.reminderTextContent{
+    font-family: 'RobotoMono';
+    font-size: 1.5vw;
+}
+
+.reminderImg{
+    width: 2.5vw;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+}
+
+.projects .title{
+    font-family: 'RobotoMono';
+    font-size: 1.7vw;
+}
+
+.projects .list{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.project{
+    font-size: 1vw;
+}
+
+.addProjectImg{
+    width: 2.5vw;
+}
+
+.addProject{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.addNewProjectImg{
+    width: 2.5vw;
+}
+
+.addNewProjectText{
+    font-family: 'RobotoMono';
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
 
