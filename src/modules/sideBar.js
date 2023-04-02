@@ -2,13 +2,15 @@ function createSidebar(){
     const sideBar = document.createElement("div")
     sideBar.classList.add("sideBar")
 
-    const content = document.querySelector(".content")
+    // const content = document.querySelector(".content")
 
 
     sideBar.appendChild(createRemindersSection())
     sideBar.appendChild(createProjectsSection())
 
-    content.appendChild(sideBar)
+    // content.appendChild(sideBar)
+
+    return sideBar
 
 }
 

@@ -1,5 +1,5 @@
 function createHeader(){
-    const content = document.querySelector(".content")
+    // const content = document.querySelector(".content")
 
     const header = document.createElement("div")
     header.classList.add("header")
@@ -10,7 +10,9 @@ function createHeader(){
 
     header.appendChild(logo)
 
-    content.appendChild(header)
+    return header
+
+    // content.appendChild(header)
 }
 
 export default createHeader 
